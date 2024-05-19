@@ -31,11 +31,17 @@ p {
 
 #spain_info {
     display: flex;
+    justify-content: space-between;
+}
+
+.spain_summary {
+    width: 100%;
 }
 
 .spain_details {
     display: flex;
     flex-direction: column;
+    width: 60%;
 }
 
 .spain_details section {
@@ -44,9 +50,11 @@ p {
 }
 
 .spain_details img {
-    width: 20rem;
+    width: 100%;
+    max-width: 300px;
+    max-height: 200px;
     height: auto;
-    margin-left: auto;
+    margin: auto;
 }
 
 .wrap {
@@ -62,6 +70,8 @@ p {
 
 .city_image {
     display: block;
-    width: 100%;
+    width: 80%;
+    height: auto;
+    max-height: 650px;
     margin: 0 auto;
 }
