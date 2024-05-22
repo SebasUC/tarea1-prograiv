@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Posicionamiento de páginas web (SEO)</title>
-    <meta name="author" content="Sebastián Ulloa Campos">
-    <meta name="description" content="El SEO se refiere a las formas para posicionar una página web eficientemente. ¡Aprende más aquí!">
+    
+    <meta name="author" content="Sebastián Ulloa Campos"/>
+    <meta name="description" content="El SEO se refiere a las formas para posicionar una página web eficientemente. ¡Aprende más aquí!"/>
+    <meta name="keywords" content="spain, españa, seo"/>
 
     <link rel="stylesheet" href="seostyles.css">
     <link rel="stylesheet" href="globalstyles.css">
@@ -29,6 +31,165 @@
         </nav>
     </header>
     <main>
+        <nav class="page_nav">
+            <h2>Contenido</h2>
+
+            <ul>
+                <li>
+                    <a href="#seo_section">SEO</a>
+                    <ol>
+                        <li><a href="#seo_meaning">¿Qué es SEO?</a></li>
+                        <li><a href="#avantages_section">Beneficios de usar SEO</a></li>
+                        <li><a href="#video">Video de referencia</a></li>
+                    </ol>
+                </li>
+                
+                <li>
+                    <a href="#web-optimization-section">Optimización de una página web</a>
+                </li>
+
+                <li>
+                    <a href="#meta-tags-section">Uso de las Meta Etiquetas</a>
+                    <ol>
+                        <li><a href="#meta-description">Meta Etiquetas</a></li>
+                        <li><a href="#title-description">Title</a></li>
+                        <li><a href="#charset-description">Charset</a></li>
+                        <li><a href="#description-description">Description</a></li>
+                        <li><a href="#keyword-description">Keywords</a></li>
+                        <li><a href="#author-description">Author</a></li>
+                    </ol>
+                </li>
+
+                <li>
+                    <a href="#summary-article">Resumen</a>
+                </li>
+            </ul>
+            <hr>
+        </nav>
+
+        <section id="seo_section" class="links">
+            <article id="seo_meaning" class="links">
+                <h2>¿Qué es SEO?</h2>
+                <p>SEO (Search Engine Optimization) se refiere a la forma en la que posicionamos nuestra página web, procurando encontrar la forma más eficiente de hacerlo.</p>
+            </article>
+            
+            <article id="avantages_section" class="links">
+                <h3>Principales beneficios de usar SEO</h3>
+                <p>Su principal beneficio es que una web bien posicionada y adecuadamente configurada tendrá un alcance mayor. Esto facilitará las visitas de futuros usuarios y hará que aparecer en los primeros resultados de los motores de búsqueda sea una tarea más fácil.</p>
+            </article>
+
+            <article id="video" class="links">
+                <h3>Video de referencia</h3>
+                <aside class="video-container">
+                    <iframe src="https://www.youtube.com/embed/bdUS3wjTzdE"></iframe>
+                </aside>
+
+                <hr />
+            </article>
+
+        </section>
+
+        <section id="web-optimization-section" class="links">
+            <article id="optimization" class="links">
+                <h2>¿Cómo podemos optimizar nuestra página web?</h2>
+                <p>En los últimos años el mercado de dispositivos móviles ha crecido enormemente, al igual que lo han hecho las aplicaciones que se alojan en la nube. Por lo que en la época actual es de suma importancia diseñar sitios web "responsive" que se adapten a las resoluciones de diferentes dispositivos. Aunque también es importante considerar las <b>meta etiquetas</b>.</p>
+                <p>Anteriormente los motores de búsqueda priorizaban las <b>meta etiquetas</b> para el posicionamiento de un sitio web. Aunque hoy en día no sea la prioridad número uno, sigue siendo muy importante entender el funcionamiento de estas etiquetas y cómo pueden aportar al posicionamiento de nuestra página web.</p>
+            </article>        
+            <hr />
+        </section>
+
+        <section id="meta-tags-section" class="links">
+            <article id="meta-description" class="links">
+                <h2>Meta Etiquetas</h2>
+                <p>Las meta etiquetas se diferencian del resto de etiquetas HTML porque permiten al motor de búsqueda conocer detalles específicos del sitio web. Entre ellos destacan el título, la descripción de la página, palabras clave y el autor del sitio web.</p>
+                <p>Cada una de estas etiquetas se colocan en la etiqueta <b>head</b> de la página.</p>
+            </article>
+            
+            <article id="title-description" class="links">
+                <h2>Title</h2>
+                <p>Esta etiqueta se encarga de determinar el título de la página.</p>
+                <div class="code">
+                    &lt;title&gt;Posicionamiento de páginas web (SEO)&lt;/title&gt;
+                </div>
+            </article>
+            
+            <article id="charset-description" class="links">
+                <h2>Charset</h2>
+                <p>Esta etiqueta permite elegir la codificación de carácteres que utilizará la página. En idiomas como el español es muy importante elegir una codificación adecuada para reflejar letras o símbolos especiales del idioma.</p>
+                <div class="code">
+                    &lt;meta charset="UTF-8"&gt;
+                </div>
+            </article>
+            
+            <article id="description-description" class="links">
+                <h2>Description</h2>
+                <p>Esta etiqueta permite dar una corta descripción de la página. Es importante cuidar la ortografía y lo largo pues es lo que se reflejará en la búsqueda.</p>
+                <div class="code">
+                    &lt;name="description" content="El SEO se refiere a las formas para posicionar una página web eficientemente. ¡Aprende más aquí!"/&gt;
+                </div>
+
+                <figure class="tag-figure">
+                    <img alt="Ejemplo de la meta etiqueta description" src="https://mangools.com/blog/wp-content/uploads/2020/12/title-tag-and-meta-description.png">
+                    <figcaption>Ejemplo del uso de la meta etiqueta description y title</figcaption>
+                </figure>
+            </article>
+            
+            <article id="keyword-description" class="links">
+                <h2>Keywords</h2>
+                <p>Con las palabras clave podemos definir algunas palabras importantes o que destacan el mensaje de nuestra web.</p>
+                <div class="code">
+                    &lt;meta name="keywords" content="spain, españa, seo"/&gt;
+                </div>
+            </article>
+            
+            <article id="author-description" class="links">
+                <h2>Author</h2>
+                <p>Permite indicar el autor del sitio web.</p>
+                <div class="code">
+                    &lt;meta name="author" content="Sebastián Ulloa Campos"&gt;
+                </div>
+            </article>
+
+            <hr />
+        </section>
+
+        <section id="summary-article" class="links">
+            <article id="meta-summary" class="links">
+                <h2>Resumen</h2>
+                <p>Es importante implementar el uso de las meta etiquetas para asegurar un mejor posicionamiento de la página, y con ello alcanzar a más futuros visitantes.</p>
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Meta etiqueta</th>
+                        <th>Descripción</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Title</td>
+                            <td>Título de la página</td>
+                        </tr>
+                        <tr>
+                            <td>Charset</td>
+                            <td>Codificación de la página</td>
+                        </tr>
+                        <tr>
+                            <td>Description</td>
+                            <td>Descripción de la página</td>
+                        </tr>
+                        <tr>
+                            <td>Keywords</td>
+                            <td>Palabras clave</td>
+                        </tr>
+                        <tr>
+                            <td>Author</td>
+                            <td>Autor de la página</td>
+                        </tr>
+                    </tbody>
+                  </table>
+            </article>
+        </section>
+
         
     </main>
     <footer>
@@ -45,5 +206,7 @@
 
         <p class="copy"><i>&copy; 2024, Derechos Reservados Sebastián Ulloa Campos ISW-512</a></i></p>
     </footer>
+
+    <script src="seoscript.js"></script>
 </body>
 </html>
