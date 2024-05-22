@@ -1,32 +1,15 @@
-head, body {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: url("./img/madrid.jpg") center;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Montserrat';
 }
 
-.container {
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px; /* Espacio entre los bloques */
-    width: 90%;
-}
-
-h2 {
-    font-size: 2.6rem;
-}
-
-p {
-    font-size: 1.3rem;
 }
 
 #spain_info {
@@ -51,9 +34,9 @@ p {
 
 .spain_details img {
     width: 100%;
-    max-width: 300px;
-    max-height: 200px;
     height: auto;
+    max-width: 220px;
+    max-height: 150px;
     margin: auto;
 }
 
